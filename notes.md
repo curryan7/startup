@@ -11,4 +11,7 @@
 
 ## Web servers
 - use 'curl' to see HTTP time request
+
+## Domain Names
+- use 'whois' to get info about domain name
 - 
