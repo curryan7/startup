@@ -13,3 +13,14 @@ Communication is key in any relationship. Whether you just started a relationshi
 ![Screenshot 2023-09-22 at 2 43 21 PM](https://github.com/curryan7/startup/assets/103795725/2c7627fd-f1d5-4aaa-9ba1-db9cfc2d4de5)
 ![Screenshot 2023-09-22 at 2 43 41 PM](https://github.com/curryan7/startup/assets/103795725/462ab83f-43f5-4650-b0fc-04904d82f829)
 ![Screenshot 2023-09-22 at 2 43 53 PM](https://github.com/curryan7/startup/assets/103795725/bc70ad16-a047-4eed-9762-e4394eed2058)
+
+## HTML deliverable
+For this deliverable, I built out the structure of my application using HTML.
+- HTML pages:
+- Links: The login page has two paths. All buttons lead to another page (login, submit, etc.). There is a link to the about page in the waiting page text.
+- Text: Each voting choice has a textual description, the about page has information about the website, the waiting page after submitting a pole has text instructing users the next steps.
+- placeholder for 3rd party: a random article from a dating website will replace the articles in the about page
+- images: there are images on the about page and waiting page
+- login placeholder/username display: input box and submit button for login
+- database data placeholder: voting choices will represent data pulled from the databases as well as date ideas that were suggested on the ideas table when creating a poll
+- Websocket: tally of which ideas you agree on with your date on the results page will be the realtime communication will be
