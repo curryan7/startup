@@ -16,7 +16,7 @@ Communication is key in any relationship. Whether you just started a relationshi
 
 ## HTML deliverable
 For this deliverable, I built out the structure of my application using HTML.
-- HTML pages:
+- HTML pages: (5 pages) index.html, about.html, voter.html, voting.html, and waiting.html
 - Links: The login page has two paths. All buttons lead to another page (login, submit, etc.). There is a link to the about page in the waiting page text.
 - Text: Each voting choice has a textual description, the about page has information about the website, the waiting page after submitting a pole has text instructing users the next steps.
 - placeholder for 3rd party: a random article from a dating website will replace the articles in the about page
