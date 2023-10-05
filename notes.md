@@ -56,10 +56,30 @@ goes as '.nameofclass'{}
 ### ID selector
 '#nameofID'{}
 
-## Attribute Selector
+### Attribute Selector
 <img width="681" alt="Screenshot 2023-10-03 at 5 59 15 PM" src="https://github.com/curryan7/startup/assets/103795725/5c1968e9-6e68-4108-a187-068fd412bee1">
 
-## Pseudo Selector
+### Pseudo Selector
 <img width="839" alt="Screenshot 2023-10-03 at 5 59 49 PM" src="https://github.com/curryan7/startup/assets/103795725/36f06a5d-c569-4efa-b534-b479eb48bcd4">
 
+### declarations
+specifies property and value to assign when the rule selector matches one or more elements
+![Screenshot 2023-10-04 at 8 40 03 PM](https://github.com/curryan7/startup/assets/103795725/c8a0e9ce-b7a0-40d4-abf9-513cfa2db9f4)
 
+### units
+![Screenshot 2023-10-04 at 8 44 12 PM](https://github.com/curryan7/startup/assets/103795725/adf4db89-1cfb-4452-8a93-f2d0c9e2930d)
+
+### color
+![Screenshot 2023-10-04 at 8 44 33 PM](https://github.com/curryan7/startup/assets/103795725/b839a706-d407-4186-8be5-8e9a80a37b5d)
+
+### fonts
+Four major families:
+1) 'serif'
+2) 'sans-serif'
+3) 'fixed'
+4) 'symbol'
+
+importing use: @font-face
+![Screenshot 2023-10-04 at 8 46 40 PM](https://github.com/curryan7/startup/assets/103795725/e49651a0-8b9f-4ee7-8809-1b6bf209cc88)
+
+![Screenshot 2023-10-04 at 8 47 04 PM](https://github.com/curryan7/startup/assets/103795725/8bdcda9e-8592-4d33-b64f-c7608e9b1be5)
