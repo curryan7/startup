@@ -42,7 +42,7 @@ or link:
 <img width="302" alt="Screenshot 2023-10-03 at 5 30 45 PM" src="https://github.com/curryan7/startup/assets/103795725/bae94970-1a80-437b-992a-e738ee95327e">
 - change using 'box-sizing' CSS property
 
-## Selectors in CSS
+### Selectors in CSS
 use an 'element'
 <img width="583" alt="Screenshot 2023-10-03 at 5 34 14 PM" src="https://github.com/curryan7/startup/assets/103795725/a83736fb-c625-416b-a566-57238f79082b">
 <img width="582" alt="Screenshot 2023-10-03 at 5 34 22 PM" src="https://github.com/curryan7/startup/assets/103795725/c430a08c-1770-44c9-a507-8f98f6c88d09">
@@ -83,3 +83,33 @@ importing use: @font-face
 ![Screenshot 2023-10-04 at 8 46 40 PM](https://github.com/curryan7/startup/assets/103795725/e49651a0-8b9f-4ee7-8809-1b6bf209cc88)
 
 ![Screenshot 2023-10-04 at 8 47 04 PM](https://github.com/curryan7/startup/assets/103795725/8bdcda9e-8592-4d33-b64f-c7608e9b1be5)
+
+### responsive design
+window resize dynamics
+<img width="577" alt="Screenshot 2023-10-05 at 11 56 29 AM" src="https://github.com/curryan7/startup/assets/103795725/55c28394-d35f-492c-9c57-028a09d8d221">
+<img width="574" alt="Screenshot 2023-10-05 at 11 56 46 AM" src="https://github.com/curryan7/startup/assets/103795725/2a993d3b-5913-41c2-94cb-6495608b80a2">
+<img width="503" alt="Screenshot 2023-10-05 at 11 58 01 AM" src="https://github.com/curryan7/startup/assets/103795725/be2795b9-74a0-45f5-a9dd-dc8ce43d99ac">
+<img width="577" alt="Screenshot 2023-10-05 at 11 58 13 AM" src="https://github.com/curryan7/startup/assets/103795725/02ed2647-5d47-4324-8558-05add907d812">
+<img width="503" alt="Screenshot 2023-10-05 at 11 58 21 AM" src="https://github.com/curryan7/startup/assets/103795725/db3a54a8-219a-4fcf-8451-133be73064bc">
+
+**use this to be adaptable to mobile devices**
+<img width="667" alt="Screenshot 2023-10-05 at 12 00 02 PM" src="https://github.com/curryan7/startup/assets/103795725/88dc16e3-6200-4355-bda6-d72b4b4e64bc">
+
+### float
+moves left or right of its container element and allows inline elements to wrap around it
+<img width="521" alt="Screenshot 2023-10-05 at 12 02 00 PM" src="https://github.com/curryan7/startup/assets/103795725/77acd498-7caa-4a55-bfec-927ad6b642bc">
+
+### media queries
+'@media' detects size and orienation of device
+<img width="584" alt="Screenshot 2023-10-05 at 1 46 47 PM" src="https://github.com/curryan7/startup/assets/103795725/88f4b152-abcc-4bf6-b33e-952f4ceefc59">
+
+<img width="589" alt="Screenshot 2023-10-05 at 1 49 32 PM" src="https://github.com/curryan7/startup/assets/103795725/c02eab07-1e1b-4ad5-889d-edec12893f03">
+
+### CSS Grid
+<img width="601" alt="Screenshot 2023-10-05 at 1 55 23 PM" src="https://github.com/curryan7/startup/assets/103795725/07a3f32d-bbf1-4b91-bc98-1dc29e4a3d8e">
+
+grid template columns specifies layout of grid
+<img width="582" alt="Screenshot 2023-10-05 at 1 58 39 PM" src="https://github.com/curryan7/startup/assets/103795725/ee96d40f-572c-4bbe-ab9d-74ac78039ed7">
+
+
+
