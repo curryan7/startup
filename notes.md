@@ -111,5 +111,10 @@ moves left or right of its container element and allows inline elements to wrap 
 grid template columns specifies layout of grid
 <img width="582" alt="Screenshot 2023-10-05 at 1 58 39 PM" src="https://github.com/curryan7/startup/assets/103795725/ee96d40f-572c-4bbe-ab9d-74ac78039ed7">
 
-
-
+### flex
+<img width="592" alt="Screenshot 2023-10-06 at 1 09 39 PM" src="https://github.com/curryan7/startup/assets/103795725/ab69411e-51ec-444c-a051-7410b3183b8d">
+<img width="550" alt="Screenshot 2023-10-06 at 1 11 50 PM" src="https://github.com/curryan7/startup/assets/103795725/634c4939-3c77-46a3-aa0b-8f689240a5a5">
+<img width="593" alt="Screenshot 2023-10-06 at 1 12 56 PM" src="https://github.com/curryan7/startup/assets/103795725/1d937148-d56d-4de9-b66b-1a6520dedd78">
+<img width="603" alt="Screenshot 2023-10-06 at 1 13 06 PM" src="https://github.com/curryan7/startup/assets/103795725/a7badb7a-e07f-4575-8e11-a652ec783886">
+<img width="627" alt="Screenshot 2023-10-06 at 1 14 33 PM" src="https://github.com/curryan7/startup/assets/103795725/973f8307-1632-4989-9df4-ca3accb86c53">
+<img width="617" alt="Screenshot 2023-10-06 at 1 31 45 PM" src="https://github.com/curryan7/startup/assets/103795725/9c74f93e-66e4-4d07-a75c-5bb30ba9e69f">
