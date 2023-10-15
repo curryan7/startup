@@ -118,3 +118,91 @@ grid template columns specifies layout of grid
 <img width="603" alt="Screenshot 2023-10-06 at 1 13 06 PM" src="https://github.com/curryan7/startup/assets/103795725/a7badb7a-e07f-4575-8e11-a652ec783886">
 <img width="627" alt="Screenshot 2023-10-06 at 1 14 33 PM" src="https://github.com/curryan7/startup/assets/103795725/973f8307-1632-4989-9df4-ca3accb86c53">
 <img width="617" alt="Screenshot 2023-10-06 at 1 31 45 PM" src="https://github.com/curryan7/startup/assets/103795725/9c74f93e-66e4-4d07-a75c-5bb30ba9e69f">
+
+## JS
+<img width="901" alt="Screenshot 2023-10-14 at 10 16 29 PM" src="https://github.com/curryan7/startup/assets/103795725/6ea74c51-6203-4764-8fcc-d29cfec1eb0b">
+
+### comments
+/* */ block comment
+// line comment
+
+### log
+<img width="907" alt="Screenshot 2023-10-14 at 10 18 08 PM" 
+ src="https://github.com/curryan7/startup/assets/103795725/a9129154-335a-4188-8ae2-b7376b8251ce">
+
+### timers
+<img width="899" alt="Screenshot 2023-10-14 at 10 19 02 PM" src="https://github.com/curryan7/startup/assets/103795725/9adca874-82bd-4605-8774-2e9a0d076476">
+
+### count
+see how many block of code called
+<img width="895" alt="Screenshot 2023-10-14 at 10 19 29 PM" src="https://github.com/curryan7/startup/assets/103795725/61f193a8-bb5a-45c3-bffb-9e3dfbd28bb6">
+
+### incorporating into HTML
+use '<script>' or 'src' to include
+example:
+<img width="903" alt="Screenshot 2023-10-14 at 10 20 28 PM" src="https://github.com/curryan7/startup/assets/103795725/445d66ce-eba8-465e-9254-2f3fc99c3d3d">
+<img width="900" alt="Screenshot 2023-10-14 at 10 21 31 PM" src="https://github.com/curryan7/startup/assets/103795725/3ada8c31-1d5b-4a21-8eea-578e4c401025">
+
+### declaring variables
+use 'let' for changing variable
+use 'const' for non-changing variable
+<img width="900" alt="Screenshot 2023-10-14 at 10 22 40 PM" src="https://github.com/curryan7/startup/assets/103795725/ff374b82-51ea-4c71-8127-f07d241db1dd">
+
+### types of data
+<img width="556" alt="Screenshot 2023-10-14 at 10 23 13 PM" src="https://github.com/curryan7/startup/assets/103795725/a81a2c0f-bf32-4892-8a1d-e339eeca895c">
+<img width="895" alt="Screenshot 2023-10-14 at 10 23 43 PM" src="https://github.com/curryan7/startup/assets/103795725/a6ed0691-7d94-42a4-8347-e0955376c224">
+
+### object types
+<img width="904" alt="Screenshot 2023-10-14 at 10 24 01 PM" src="https://github.com/curryan7/startup/assets/103795725/5444cf5f-de09-4810-a143-5e51edea0285">
+
+<img width="906" alt="Screenshot 2023-10-14 at 10 24 20 PM" src="https://github.com/curryan7/startup/assets/103795725/96a98e41-a0a3-4d78-b072-d1761deb677c">
+
+### type conversions
+- variable always needs a type
+- variable can change type when assigned to a new value
+- or auto converted based in context
+- getting unexpected results is especially common with equality operator
+ <img width="895" alt="Screenshot 2023-10-14 at 10 26 25 PM" src="https://github.com/curryan7/startup/assets/103795725/db120b0e-bb07-460a-9d1c-5d9c668d7857">
+- we use '===' as strict equality to skip the auto-type conversion
+
+### conditionals
+- if
+- else
+- if else
+ <img width="690" alt="Screenshot 2023-10-14 at 10 28 04 PM"
+   src="https://github.com/curryan7/startup/assets/103795725/45f30f1d-4ae1-4137-bb89-352cc32dcd37">
+ternary operator ':' which is a compact if else:
+<img width="500" alt="Screenshot 2023-10-14 at 10 28 47 PM" src="https://github.com/curryan7/startup/assets/103795725/cfb38239-24d7-45a3-9c48-9b8f2e4e05f7">
+<img width="907" alt="Screenshot 2023-10-14 at 10 29 13 PM" src="https://github.com/curryan7/startup/assets/103795725/27ff20c6-7d5b-4560-83c3-e14bdcd74911">
+
+### loops
+- for:
+<img width="806" alt="Screenshot 2023-10-14 at 10 29 56 PM" src="https://github.com/curryan7/startup/assets/103795725/fa7495ff-7ed9-4960-9c78-cf8a93a89075">
+
+- for in:
+<img width="896" alt="Screenshot 2023-10-14 at 10 31 07 PM" src="https://github.com/curryan7/startup/assets/103795725/39efca06-bf6a-42b5-9881-bcc0c346003e">
+<img width="899" alt="Screenshot 2023-10-14 at 10 31 19 PM" src="https://github.com/curryan7/startup/assets/103795725/77a71f9e-3609-4a3f-86a0-7b46818aff64">
+
+- for of:
+  <img width="802" alt="Screenshot 2023-10-14 at 10 31 36 PM" src="https://github.com/curryan7/startup/assets/103795725/ccdf4da1-942f-4a60-8185-faf2988244c9">
+
+- while:
+<img width="671" alt="Screenshot 2023-10-14 at 10 30 51 PM" src="https://github.com/curryan7/startup/assets/103795725/ebc4ca67-c85e-4568-99b2-430fb810500f">
+
+- do while:
+<img width="680" alt="Screenshot 2023-10-14 at 10 30 18 PM" src="https://github.com/curryan7/startup/assets/103795725/61069116-9ba2-4986-841e-db77f8bd8b65">
+
+- switch:
+<img width="898" alt="Screenshot 2023-10-14 at 10 31 56 PM" src="https://github.com/curryan7/startup/assets/103795725/5879b6be-1b11-4518-92d0-19e23f3a3bc0">
+
+### strings
+' and " are the same
+('`') a string literal that may contain JavaScript that is evaluated in place and concatenated into the string. A string literal replacement specifier is declared with a dollar sign followed by a curly brace pair. Anything inside the curly braces is evaluated as JavaScript. You can also use backticks to create multiline strings without having to explicitly escape the newline characters using \n.
+<img width="620" alt="Screenshot 2023-10-14 at 10 36 00 PM" src="https://github.com/curryan7/startup/assets/103795725/6f047e81-2efc-44ed-a85b-84d05ffb15ad">
+
+### string functions
+<img width="570" alt="Screenshot 2023-10-14 at 10 36 48 PM" src="https://github.com/curryan7/startup/assets/103795725/3ed7e3d9-5f92-4f5a-ac1d-ce306b338bf0">
+<img width="753" alt="Screenshot 2023-10-14 at 10 37 04 PM" src="https://github.com/curryan7/startup/assets/103795725/bb7caab7-1c68-4e99-a24a-74cb4b1b602c">
+
+### functions
+
