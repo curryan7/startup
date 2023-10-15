@@ -26,7 +26,7 @@ For this deliverable, I built out the structure of my application using HTML.
 - Websocket: tally of which ideas you agree on with your date on the results page will be the realtime communication will be
 
 ## CSS deliverable
-- Header, footer, and main content body
+- Header, footer, and main content body: color of footer and header and different from the white background of page
 - Navigation elements: I created custom navigation menu that works as a drop down menu in mobile and also changed the color, font, and size of the elements within the navigation menu in the header.
 - Responsive to window resizing: app looks great both in mobile and desktop (I'd highly recommend checkin it out on mobile)
 - Application elements: Used a professional color scheme and utilized spacing to not crowd the user with content
