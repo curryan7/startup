@@ -217,44 +217,79 @@ ternary operator ':' which is a compact if else:
 
 # MIDTERN STUDY GUIDE
 
-In the following code, what does the link element do? (HTML)
+### In the following code, what does the link element do? (HTML)
+a link element will display a file based on the file path inserted as its source
 
+### In the following code,  where does a div tag do? (HTML)
+The div in div tag stands for divider. The divider will help section off your code creating a scope in which you manipulate the variables.
 
-In the following code,  where does a div tag do? (HTML)
+### In the following code, what is the difference between the #title and .grid selector? (Javascript)
 
+#title targets values that have the id of title
 
-In the following code, what is the difference between the #title and .grid selector? (Javascript)
+.grid will target values that have the class attribute of "grid"
 
+ids on one element (unique within the document)
+. notation can be resued on multiple elements
 
 ### In the following code, what is the difference between padding and margin? (CSS)
 
 padding is internal spance while margin is space within
 
-Given this HTML and this CSS how will the images be displayed using flex? (HTML CSS)
+### Given this HTML and this CSS how will the images be displayed using flex? (HTML CSS)
+
+<img width="742" alt="Screenshot 2023-10-30 at 2 14 32 PM" src="https://github.com/curryan7/startup/assets/103795725/c7fb6c37-993a-4c56-9828-e7cd936d8ef0">
+
+<img width="907" alt="Screenshot 2023-10-30 at 2 17 37 PM" src="https://github.com/curryan7/startup/assets/103795725/c979fb74-8c21-430e-a79d-c0b42e81ef1d">
+
+<img width="901" alt="Screenshot 2023-10-30 at 2 17 55 PM" src="https://github.com/curryan7/startup/assets/103795725/76a0f59e-06ac-4dbd-8cfb-a23d4836a8b7">
+
+<img width="905" alt="Screenshot 2023-10-30 at 2 18 25 PM" src="https://github.com/curryan7/startup/assets/103795725/8b3cbda1-b19d-4c06-a156-12e570d6e8b0">
 
 
 
-What does the following padding CSS do? (CSS)
+### What does the following padding CSS do? (CSS)
+
+padding in CSS, as referred to below, is used to create space betweeen the content and the inner side of its border. Padding in general will put space on all sides, whereas padding can be specified with terms such as (padding-top, padding-right, etc.)
 
 
+### What does the following code using arrow syntax function declaration do? (JS)
 
-What does the following code using arrow syntax function declaration do? (JS)
+function_name((parameters) => process of function);
+
+<img width="414" alt="Screenshot 2023-10-30 at 2 23 24 PM" src="https://github.com/curryan7/startup/assets/103795725/2a3595b2-ed72-4452-9f1c-000c95c548ce">
+
+<img width="902" alt="Screenshot 2023-10-30 at 2 26 03 PM" src="https://github.com/curryan7/startup/assets/103795725/4c687e95-4c0f-466c-b29c-480363343b5d">
+
+The point of a debounce function is to only execute a specified function once within a given time window.
+
+<img width="905" alt="Screenshot 2023-10-30 at 2 27 25 PM" src="https://github.com/curryan7/startup/assets/103795725/35bb306b-6a1b-4697-ba26-a390615f5e49">
+
+<img width="910" alt="Screenshot 2023-10-30 at 2 28 16 PM" src="https://github.com/curryan7/startup/assets/103795725/f6f32501-ce55-433d-a159-4f44371df04d">
+
+### What does the following code using map with an array output? (JS)
+
+creating an arry:
+
+<img width="296" alt="Screenshot 2023-10-30 at 2 30 05 PM" src="https://github.com/curryan7/startup/assets/103795725/829df791-11e8-4a5b-a1a8-1cdd9a574cce">
+
+<img width="801" alt="Screenshot 2023-10-30 at 2 30 21 PM" src="https://github.com/curryan7/startup/assets/103795725/642cac07-64d3-4582-ba27-1f75aef50fa4">
 
 
+### What does the following code output using getElementByID and addEventListener? (Multiple)
 
-What does the following code using map with an array output? (JS)
+getElementByID is a function used to access HTML elements by their id attribute
 
+addEventListener will allow one to add an event tag on an element that will trigger something else should the event happen
 
-
-What does the following code output using getElementByID and addEventListener? (Multiple)
-
+<img width="645" alt="Screenshot 2023-10-30 at 2 35 12 PM" src="https://github.com/curryan7/startup/assets/103795725/b4028bd4-7e23-4f2f-9259-9c5e46ce7fce">
 
 ### What does the following line of Javascript do using a # selector? (JS)
+
 allows you to select an element with a specific 'id'. Returns the first element in the document witht he specified 'id'
 
-
-
 ### Which of the following are true? (mark all that are true about the Document Object Models)
+
 DOM= Document Object Models
 - object representation of HTML elements that the browser uses to render the display
 - browser exposed it to external code to easily dynamically manipulate the HTML
@@ -305,7 +340,7 @@ to create an object in DOM:
 
 ### By default, the HTML span element has a default CSS display property value of: (CSS)
 
-'inline'????
+`inline` or `block`
 
 
 ### How would you use CSS to change all the div elements to have a background color of red? (CSS color)
@@ -321,7 +356,8 @@ to create an object in DOM:
 <img width="933" alt="Screenshot 2023-10-29 at 11 47 39 PM" src="https://github.com/curryan7/startup/assets/103795725/d8e3902b-f090-408e-9fd3-d5cacf929e90">
 
 
-**How would you display an image with a hyperlink in HTML?**
+### How would you display an image with a hyperlink in HTML?
+
 use `img` element
 specify using `src`
 use `alt` that describes the image
@@ -375,6 +411,7 @@ What is the opening HTML tag for a:
 - third level heading: `<h3>`
 
 ### How do you declare the document type to be html?
+
 `<!DOCTYPE html>`
 at the top
 
@@ -450,11 +487,11 @@ an object has:
 
 <img width="358" alt="Screenshot 2023-10-29 at 10 44 40 PM" src="https://github.com/curryan7/startup/assets/103795725/12c8f1d3-ea1e-4c6c-8323-be518ad26d4b">
 
-Object Functions
+**Object Functions**
 
 <img width="510" alt="Screenshot 2023-10-29 at 10 45 02 PM" src="https://github.com/curryan7/startup/assets/103795725/93684013-98b4-4d3f-be0a-f65c578c01ef">
 
-Constructors: any function that returns an object `new`
+**Constructors:** any function that returns an object `new`
 
 <img width="354" alt="Screenshot 2023-10-29 at 10 45 39 PM" src="https://github.com/curryan7/startup/assets/103795725/023a85eb-6060-41e2-ab06-392eb001d431">
 
@@ -492,8 +529,11 @@ code page or just the code within
 
 ### Given the following HTML, what JavaScript could you use to set the text "animal" to "crow" and leave the "fish" text unaffected?
 
+getelementbyID
+
 
 ### Which of the following correctly describes JSON?
+
 stands for JavaScript Object Notation
 - used to share and store data utilizing objects
 
@@ -546,26 +586,57 @@ data types:
 `ssh`
 
 ### Which of the following is true when the -la parameter is specified for the ls console command?
+it shows a detailed files adn driectories (including hidden files)
 
+![Screenshot 2023-10-30 at 2 40 26 PM](https://github.com/curryan7/startup/assets/103795725/a3d4e89d-0d70-4908-a9df-5cd562954b1f)
 
 ### Which of the following is true for the domain name banana.fruit.bozo.click, which is the top level domain, which is a subdomain, which is a root domain?
+
 ![domain-name-structure-diagram-1956x936](https://github.com/curryan7/startup/assets/103795725/3e7586c9-bc9f-4bcd-86ed-f8555f9e43b6)
 
 
 ### Is a web certificate is necessary to use HTTPS?
 Yes
 
-### Can a DNS A record can point to an IP address or another A record?
-
+### Can a DNS A record point to an IP address or another A record?
+No
 
 
 ### Port 443, 80, 22 is reserved for which protocol?
 
-
+443: is for HTTPS
+80: is for HTTP
+22: is for SSH
 
 ### What will the following code using Promises output when executed?
 
+There are three states of promises:
+1) pending
+2) fulfilled
+3) rejected
 
+creating a promies:
+- call the promise object constructor
+- passing it an executor function that runs the asynchronous operation (use `setTimeout`)
+- after time is expired, call the delay function in a `for` loop in the promise executorr and also a `for` loop outside the promise so that both code blocks are running in parallel
+
+promise executor takes two functions as parameters (`reject ` and `resolve`)
+resolve leads to `fulfilled` state
+reject leads to `rejected` state
+
+
+
+<img width="819" alt="Screenshot 2023-10-30 at 2 56 30 PM" src="https://github.com/curryan7/startup/assets/103795725/b1013498-6f37-46d6-a4ad-679da680d46b">
+
+<img width="856" alt="Screenshot 2023-10-30 at 2 58 59 PM" src="https://github.com/curryan7/startup/assets/103795725/70499e0c-4891-43d6-8d1f-690f77a20ff1">
+
+resulting states will lead to something else to happening
+
+`then`: for if it is fulfilled
+`catch` for if it is rejected
+and `finally` after all the processing is done
+
+<img width="910" alt="Screenshot 2023-10-30 at 3 01 51 PM" src="https://github.com/curryan7/startup/assets/103795725/4182caf7-0fc2-403b-b9de-1edaf8ce03aa">
 
 
 
