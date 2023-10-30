@@ -382,32 +382,42 @@ weakly type langague: variable always has a type but variable can change type wh
 <img width="275" alt="Screenshot 2023-10-29 at 11 07 26 PM" src="https://github.com/curryan7/startup/assets/103795725/1ce12c7a-51c1-4a64-a99c-a181c8c9452e">
 
 **If:(normal) else**
+
 <img width="299" alt="Screenshot 2023-10-29 at 10 58 56 PM" src="https://github.com/curryan7/startup/assets/103795725/f6777dc7-5e72-45b6-b8b4-a1ee02637215">
 
 (ternary)
+
 <img width="450" alt="Screenshot 2023-10-29 at 11 00 10 PM" src="https://github.com/curryan7/startup/assets/103795725/9604664c-5580-4a26-ad3e-4402096cba41">
 
 (with booleans)
+
 <img width="336" alt="Screenshot 2023-10-29 at 11 00 32 PM" src="https://github.com/curryan7/startup/assets/103795725/72038b9d-d37e-4979-a804-51bff728c9ca">
 
 **for**
-`i++` token
+- `i++` token
+
 <img width="279" alt="Screenshot 2023-10-29 at 11 02 11 PM" src="https://github.com/curryan7/startup/assets/103795725/54bf8cf7-ee7c-497e-bc64-0517cf096707">
 
 **while**
+
 <img width="270" alt="Screenshot 2023-10-29 at 11 02 35 PM" src="https://github.com/curryan7/startup/assets/103795725/a870a32b-4c57-45be-b250-32069bdad88d">
 
 **do while**
+
 <img width="240" alt="Screenshot 2023-10-29 at 11 02 46 PM" src="https://github.com/curryan7/startup/assets/103795725/82f4d729-8904-4122-a8ef-b37dd883ce86">
 
 **for in**
+
 <img width="296" alt="Screenshot 2023-10-29 at 11 03 01 PM" src="https://github.com/curryan7/startup/assets/103795725/68411e0e-bf21-4647-af9f-e3beb391b8e1">
+
 <img width="371" alt="Screenshot 2023-10-29 at 11 03 15 PM" src="https://github.com/curryan7/startup/assets/103795725/0713821a-d925-47b3-a2fb-e28b4ebd7e2f">
 
 **for of**
+
 <img width="634" alt="Screenshot 2023-10-29 at 11 03 39 PM" src="https://github.com/curryan7/startup/assets/103795725/d3b8607b-3e4a-4905-8c05-cf2ba54c9413">
 
 **break and continue**
+
 <img width="624" alt="Screenshot 2023-10-29 at 11 04 09 PM" src="https://github.com/curryan7/startup/assets/103795725/06a5d472-6d7d-4edf-8186-ce74fa1c9235">
 
 
@@ -421,34 +431,42 @@ an object has:
 - inheritance
 
 **How to Create an Object**
-`new` operator
+- `new` operator
+
 <img width="653" alt="Screenshot 2023-10-29 at 10 44 11 PM" src="https://github.com/curryan7/startup/assets/103795725/def0458d-b7c5-4154-b0cc-17d929780f6c">
 
 **object literals**
+
 <img width="358" alt="Screenshot 2023-10-29 at 10 44 40 PM" src="https://github.com/curryan7/startup/assets/103795725/12c8f1d3-ea1e-4c6c-8323-be518ad26d4b">
 
 Object Functions
+
 <img width="510" alt="Screenshot 2023-10-29 at 10 45 02 PM" src="https://github.com/curryan7/startup/assets/103795725/93684013-98b4-4d3f-be0a-f65c578c01ef">
 
 Constructors: any function that returns an object `new`
+
 <img width="354" alt="Screenshot 2023-10-29 at 10 45 39 PM" src="https://github.com/curryan7/startup/assets/103795725/023a85eb-6060-41e2-ab06-392eb001d431">
 
 <img width="626" alt="Screenshot 2023-10-29 at 10 46 01 PM" src="https://github.com/curryan7/startup/assets/103795725/27de314e-f64c-4aab-951c-963d59c9f875">
 
 **classes**
 reusable objects rather than one-time
+
 <img width="415" alt="Screenshot 2023-10-29 at 10 47 16 PM" src="https://github.com/curryan7/startup/assets/103795725/707da1f6-6fd0-4cdf-84f0-3a1fd9699018">
 
 - make properties and functions of classes private by prefixing them with `#`
+
 <img width="617" alt="Screenshot 2023-10-29 at 10 47 51 PM" src="https://github.com/curryan7/startup/assets/103795725/2bf6cbe1-cf01-4be6-98f2-38be737db601">
 
 **Inheritance**
 key commands:
-`extends`
-`super`
+- `extends`
+- `super`
+  
 <img width="506" alt="Screenshot 2023-10-29 at 10 49 33 PM" src="https://github.com/curryan7/startup/assets/103795725/e5f81504-f031-4b15-83c6-a763105c6ccd">
 
 <img width="338" alt="Screenshot 2023-10-29 at 10 54 25 PM" src="https://github.com/curryan7/startup/assets/103795725/710d98eb-774a-4b76-b11f-a60099429a84">
+
 <img width="368" alt="Screenshot 2023-10-29 at 10 54 42 PM" src="https://github.com/curryan7/startup/assets/103795725/bd4fb1b1-48a7-4dc4-b3a4-aeb6b899f9ac">
 
 ### Is it possible to add new properties to javascript objects?
@@ -456,7 +474,9 @@ Yes, using the dot notation `obj.prop` or bracket notation `obj['prop']` look ab
 
 ### If you want to include JavaScript on an HTML page, which tag do you use?
 use the `<script>` element or use `src` attribute of script element for external JS file
+
 <img width="582" alt="Screenshot 2023-10-29 at 10 38 03 PM" src="https://github.com/curryan7/startup/assets/103795725/32ad15c6-31e8-4c7c-8fbd-452ba4df01df">
+
 code page or just the code within
 
 ### Given the following HTML, what JavaScript could you use to set the text "animal" to "crow" and leave the "fish" text unaffected?
