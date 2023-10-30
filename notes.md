@@ -268,7 +268,9 @@ i.e.
 for everything in an HTML document, there is a node in the DOM (elements, attributes, text, comments, whitespace); big tree with document node at top
 <img width="604" alt="Screenshot 2023-10-30 at 1 11 40 AM" src="https://github.com/curryan7/startup/assets/103795725/7801d409-3f0c-4b01-941a-7c9c0237916e">
 
+
 **accessing DOM**
+
 - every element in HTML document implements DOM Element interface
 - derived from DOM Node Interface
 - provides means for iterating child elements, accessing parent elements, and manipulating element's attributes
@@ -279,6 +281,7 @@ can start with `document` variable and walk through every element in tree
 <img width="630" alt="Screenshot 2023-10-30 at 1 18 06 AM" src="https://github.com/curryan7/startup/assets/103795725/dbeabc12-da3f-4ea5-b8d5-dc7a232fda0a">
 
 **Modifying the DOM**
+
 - supports ability to insert, modify, or delete elements in the DOM
 
 to create an object in DOM:
@@ -290,9 +293,11 @@ to create an object in DOM:
 <img width="554" alt="Screenshot 2023-10-30 at 1 19 57 AM" src="https://github.com/curryan7/startup/assets/103795725/0bd1ad3b-0a2f-4825-874b-43c892ecf1a1">
 
 **Injecting HTML**
+
 <img width="627" alt="Screenshot 2023-10-30 at 1 22 03 AM" src="https://github.com/curryan7/startup/assets/103795725/0f6b8517-7491-4aa3-938c-3698ea399ab4">
 
 **Event Listeners**
+
 <img width="636" alt="Screenshot 2023-10-30 at 1 25 16 AM" src="https://github.com/curryan7/startup/assets/103795725/6269ddb2-2ffe-443b-af6d-38b453479af4">
 
 
@@ -319,6 +324,7 @@ use `alt` that describes the image
 +url in quotes />
 
 **for audio**
+
 `audio` element
 `src` to specifiy url to source audio file
 `autoplay` + `loop` to troll the crap out of the user
