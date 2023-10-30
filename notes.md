@@ -1,8 +1,16 @@
 # Notes for Midterm
 
 ## Internet
-- use 'dig' to find the ip address of something
-- use 'traceroute' to determine hops in connections
+### Making connections:
+- need Ip address for device to talk to another
+- human friendly names == domain names
+- domain names --> IP adress with DNS
+
+  use `dig` in console to find the ip address of something
+<img width="721" alt="Screenshot 2023-10-29 at 10 03 06 PM" src="https://github.com/curryan7/startup/assets/103795725/f0ad4424-9b81-4862-a855-4ed83a464b12">
+  
+  use `traceroute` to determine hops in connections
+
 ###TCP/IP layers
 - application (HTTPS): functionality like web browsing
 - transport(TCP): moving connection information packets
@@ -10,10 +18,13 @@
 - link (fiber, hardware): physical connections
 
 ## Web servers
-- use 'curl' to see HTTP time request
+definition: a computing device that is hosting a web service that knows how to accept incoming internet connections and speak the HTTP application protocol
+- we use gateway so user doesn't need to keep track of port
+use `curl` to see HTTP time request
+- 
 
 ## Domain Names
-- use 'whois' to get info about domain name
+- use `whois` to get info about domain name
 
 ## Caddy
 '~/Caddyfile' : determine location where static HTML files are loaded from, proxy requests into services
@@ -202,6 +213,318 @@ ternary operator ':' which is a compact if else:
 
 ### string functions
 <img width="570" alt="Screenshot 2023-10-14 at 10 36 48 PM" src="https://github.com/curryan7/startup/assets/103795725/3ed7e3d9-5f92-4f5a-ac1d-ce306b338bf0">
+
+
+# MIDTERN STUDY GUIDE
+
+In the following code, what does the link element do? (HTML)
+  <head>
+  <link rel="stylesheet" href="styles.css">
+  </head>
+
+In the following code,  where does a div tag do? (HTML)
+
+
+In the following code, what is the difference between the #title and .grid selector? (Javascript)
+
+
+### In the following code, what is the difference between padding and margin? (CSS)
+
+padding is internal spance while margin is space within
+
+Given this HTML and this CSS how will the images be displayed using flex? (HTML CSS)
+
+
+
+What does the following padding CSS do? (CSS)
+
+
+
+What does the following code using arrow syntax function declaration do? (JS)
+
+
+
+What does the following code using map with an array output? (JS)
+
+
+
+What does the following code output using getElementByID and addEventListener? (Multiple)
+
+
+### What does the following line of Javascript do using a # selector? (JS)
+allows you to select an element with a specific 'id'. Returns the first element in the document witht he specified 'id'
+
+
+
+### Which of the following are true? (mark all that are true about the Document Object Models)
+DOM= Document Object Models
+- object representation of HTML elements that the browser uses to render the display
+- browser exposed it to external code to easily dynamically manipulate the HTML
+
+use `document` to see DOM for document the browser is currently rendering
+i.e.
+<img width="383" alt="Screenshot 2023-10-30 at 1 10 38 AM" src="https://github.com/curryan7/startup/assets/103795725/f6abcd18-2c77-4187-9e18-bb686a2ff9f5">
+
+for everything in an HTML document, there is a node in the DOM (elements, attributes, text, comments, whitespace); big tree with document node at top
+<img width="604" alt="Screenshot 2023-10-30 at 1 11 40 AM" src="https://github.com/curryan7/startup/assets/103795725/7801d409-3f0c-4b01-941a-7c9c0237916e">
+
+**accessing DOM**
+- every element in HTML document implements DOM Element interface
+- derived from DOM Node Interface
+- provides means for iterating child elements, accessing parent elements, and manipulating element's attributes
+
+can start with `document` variable and walk through every element in tree
+<img width="320" alt="Screenshot 2023-10-30 at 1 17 39 AM" src="https://github.com/curryan7/startup/assets/103795725/d924979e-99ca-45cb-b795-4f3224229eae">
+
+<img width="630" alt="Screenshot 2023-10-30 at 1 18 06 AM" src="https://github.com/curryan7/startup/assets/103795725/dbeabc12-da3f-4ea5-b8d5-dc7a232fda0a">
+
+**Modifying the DOM**
+- supports ability to insert, modify, or delete elements in the DOM
+
+to create an object in DOM:
+- create element on DOM
+- insert new element into DOM tree by appending it to existing element in tree
+
+<img width="546" alt="Screenshot 2023-10-30 at 1 19 45 AM" src="https://github.com/curryan7/startup/assets/103795725/0c153de3-d662-4f40-8938-0c39c77c4382">
+
+<img width="554" alt="Screenshot 2023-10-30 at 1 19 57 AM" src="https://github.com/curryan7/startup/assets/103795725/0bd1ad3b-0a2f-4825-874b-43c892ecf1a1">
+
+**Injecting HTML**
+<img width="627" alt="Screenshot 2023-10-30 at 1 22 03 AM" src="https://github.com/curryan7/startup/assets/103795725/0f6b8517-7491-4aa3-938c-3698ea399ab4">
+
+**Event Listeners**
+<img width="636" alt="Screenshot 2023-10-30 at 1 25 16 AM" src="https://github.com/curryan7/startup/assets/103795725/6269ddb2-2ffe-443b-af6d-38b453479af4">
+
+
+
+### By default, the HTML span element has a default CSS display property value of: (CSS)
+
+'inline'????
+
+
+### How would you use CSS to change all the div elements to have a background color of red? (CSS color)
+
+<img width="240" alt="Screenshot 2023-10-29 at 11 40 26 PM" src="https://github.com/curryan7/startup/assets/103795725/f9566085-a7a1-42b6-8537-61269d4b0797">
+<img width="936" alt="Screenshot 2023-10-29 at 11 46 57 PM" src="https://github.com/curryan7/startup/assets/103795725/a399d382-c01c-4163-a738-bc16a851314b">
+<img width="936" alt="Screenshot 2023-10-29 at 11 47 17 PM" src="https://github.com/curryan7/startup/assets/103795725/e1842606-33f7-4a96-b7a5-3e7e60cc2b87">
+<img width="518" alt="Screenshot 2023-10-29 at 11 47 31 PM" src="https://github.com/curryan7/startup/assets/103795725/91eb7b1b-40e0-44e3-aed1-aa0dbc16d04b">
+<img width="933" alt="Screenshot 2023-10-29 at 11 47 39 PM" src="https://github.com/curryan7/startup/assets/103795725/d8e3902b-f090-408e-9fd3-d5cacf929e90">
+
+
+**How would you display an image with a hyperlink in HTML?**
+use `img` element
+specify using `src`
+use `alt` that describes the image
+<img width="291" alt="Screenshot 2023-10-29 at 11 29 08 PM" src="https://github.com/curryan7/startup/assets/103795725/8f3eed70-ae95-4c12-aab3-bd5721982822">
++url in quotes />
+
+**for audio**
+`audio` element
+`src` to specifiy url to source audio file
+`autoplay` + `loop` to troll the crap out of the user
+<img width="394" alt="Screenshot 2023-10-29 at 11 32 24 PM" src="https://github.com/curryan7/startup/assets/103795725/bccb365a-48a1-438d-abbc-9233992145a8">
+
+**for video**
+`video` element
+`src` for URL
+include `controls` and `autoplay` attributes
+use `crossorigin="anonymous"` if requesting files from different domain
+<img width="602" alt="Screenshot 2023-10-29 at 11 33 45 PM" src="https://github.com/curryan7/startup/assets/103795725/676db244-357b-4dac-bb0b-80f3f205fa4f">
+
+**for internal media**
+
+"<svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg" stroke="red" fill="red" style="border: 1px solid #000000">
+  <circle cx="150" cy="100" r="50" />
+</svg>"
+
+In the CSS box model, what is the ordering of the box layers starting at the inside and working out?
+
+<img width="302" alt="Screenshot 2023-10-03 at 5 30 45 PM" src="https://github.com/curryan7/startup/assets/103795725/bae94970-1a80-437b-992a-e738ee95327e">
+
+
+Given the following HTML, what CSS would you use to set the text "troubl" to green and leave the "double" text unaffected?
+
+
+What will the following code output when executed using a for loop and console.log?
+
+
+How would you use JavaScript to select an element with the id of “byu” and change the text color of that element to green?
+
+
+What is the opening HTML tag for a:
+- paragraph: `<p>`
+- ordered list: '<ol>'
+- unordered list: `<ul>`
+- second level heading: `<h2>`
+- first level heading: `<h1>`
+- third level heading: `<h3>`
+
+### How do you declare the document type to be html?
+`<!DOCTYPE html>`
+at the top
+
+### What is valid javascript syntax for if, else, for, while, switch statements?
+
+**primitive datatypes of JS**
+<img width="562" alt="Screenshot 2023-10-29 at 11 05 16 PM" src="https://github.com/curryan7/startup/assets/103795725/8cd55b7a-7d00-4cbf-8260-e1c8c504cd23">
+
+**object types**
+<img width="649" alt="Screenshot 2023-10-29 at 11 07 00 PM" src="https://github.com/curryan7/startup/assets/103795725/511b8e6d-44f8-4b8f-8fc0-754e9c8e2c60">
+
+weakly type langague: variable always has a type but variable can change type when assigned a new value or that types can be auto converted based upon context used
+
+<img width="275" alt="Screenshot 2023-10-29 at 11 07 26 PM" src="https://github.com/curryan7/startup/assets/103795725/1ce12c7a-51c1-4a64-a99c-a181c8c9452e">
+
+**If:(normal) else**
+<img width="299" alt="Screenshot 2023-10-29 at 10 58 56 PM" src="https://github.com/curryan7/startup/assets/103795725/f6777dc7-5e72-45b6-b8b4-a1ee02637215">
+
+(ternary)
+<img width="450" alt="Screenshot 2023-10-29 at 11 00 10 PM" src="https://github.com/curryan7/startup/assets/103795725/9604664c-5580-4a26-ad3e-4402096cba41">
+
+(with booleans)
+<img width="336" alt="Screenshot 2023-10-29 at 11 00 32 PM" src="https://github.com/curryan7/startup/assets/103795725/72038b9d-d37e-4979-a804-51bff728c9ca">
+
+**for**
+`i++` token
+<img width="279" alt="Screenshot 2023-10-29 at 11 02 11 PM" src="https://github.com/curryan7/startup/assets/103795725/54bf8cf7-ee7c-497e-bc64-0517cf096707">
+
+**while**
+<img width="270" alt="Screenshot 2023-10-29 at 11 02 35 PM" src="https://github.com/curryan7/startup/assets/103795725/a870a32b-4c57-45be-b250-32069bdad88d">
+
+**do while**
+<img width="240" alt="Screenshot 2023-10-29 at 11 02 46 PM" src="https://github.com/curryan7/startup/assets/103795725/82f4d729-8904-4122-a8ef-b37dd883ce86">
+
+**for in**
+<img width="296" alt="Screenshot 2023-10-29 at 11 03 01 PM" src="https://github.com/curryan7/startup/assets/103795725/68411e0e-bf21-4647-af9f-e3beb391b8e1">
+<img width="371" alt="Screenshot 2023-10-29 at 11 03 15 PM" src="https://github.com/curryan7/startup/assets/103795725/0713821a-d925-47b3-a2fb-e28b4ebd7e2f">
+
+**for of**
+<img width="634" alt="Screenshot 2023-10-29 at 11 03 39 PM" src="https://github.com/curryan7/startup/assets/103795725/d3b8607b-3e4a-4905-8c05-cf2ba54c9413">
+
+**break and continue**
+<img width="624" alt="Screenshot 2023-10-29 at 11 04 09 PM" src="https://github.com/curryan7/startup/assets/103795725/06a5d472-6d7d-4edf-8186-ce74fa1c9235">
+
+
+### What is the correct syntax for creating a javascript object?
+an object has:
+- name must be String or Symbol
+- value can be * datatype
+- common object-oriented functionality such as constructors
+- `this` pointer
+- static properties and functions
+- inheritance
+
+**How to Create an Object**
+`new` operator
+<img width="653" alt="Screenshot 2023-10-29 at 10 44 11 PM" src="https://github.com/curryan7/startup/assets/103795725/def0458d-b7c5-4154-b0cc-17d929780f6c">
+
+**object literals**
+<img width="358" alt="Screenshot 2023-10-29 at 10 44 40 PM" src="https://github.com/curryan7/startup/assets/103795725/12c8f1d3-ea1e-4c6c-8323-be518ad26d4b">
+
+Object Functions
+<img width="510" alt="Screenshot 2023-10-29 at 10 45 02 PM" src="https://github.com/curryan7/startup/assets/103795725/93684013-98b4-4d3f-be0a-f65c578c01ef">
+
+Constructors: any function that returns an object `new`
+<img width="354" alt="Screenshot 2023-10-29 at 10 45 39 PM" src="https://github.com/curryan7/startup/assets/103795725/023a85eb-6060-41e2-ab06-392eb001d431">
+
+<img width="626" alt="Screenshot 2023-10-29 at 10 46 01 PM" src="https://github.com/curryan7/startup/assets/103795725/27de314e-f64c-4aab-951c-963d59c9f875">
+
+**classes**
+reusable objects rather than one-time
+<img width="415" alt="Screenshot 2023-10-29 at 10 47 16 PM" src="https://github.com/curryan7/startup/assets/103795725/707da1f6-6fd0-4cdf-84f0-3a1fd9699018">
+
+- make properties and functions of classes private by prefixing them with `#`
+<img width="617" alt="Screenshot 2023-10-29 at 10 47 51 PM" src="https://github.com/curryan7/startup/assets/103795725/2bf6cbe1-cf01-4be6-98f2-38be737db601">
+
+**Inheritance**
+key commands:
+`extends`
+`super`
+<img width="506" alt="Screenshot 2023-10-29 at 10 49 33 PM" src="https://github.com/curryan7/startup/assets/103795725/e5f81504-f031-4b15-83c6-a763105c6ccd">
+
+<img width="338" alt="Screenshot 2023-10-29 at 10 54 25 PM" src="https://github.com/curryan7/startup/assets/103795725/710d98eb-774a-4b76-b11f-a60099429a84">
+<img width="368" alt="Screenshot 2023-10-29 at 10 54 42 PM" src="https://github.com/curryan7/startup/assets/103795725/bd4fb1b1-48a7-4dc4-b3a4-aeb6b899f9ac">
+
+### Is it possible to add new properties to javascript objects?
+Yes, using the dot notation `obj.prop` or bracket notation `obj['prop']` look above
+
+### If you want to include JavaScript on an HTML page, which tag do you use?
+use the `<script>` element or use `src` attribute of script element for external JS file
+<img width="582" alt="Screenshot 2023-10-29 at 10 38 03 PM" src="https://github.com/curryan7/startup/assets/103795725/32ad15c6-31e8-4c7c-8fbd-452ba4df01df">
+code page or just the code within
+
+### Given the following HTML, what JavaScript could you use to set the text "animal" to "crow" and leave the "fish" text unaffected?
+
+
+### Which of the following correctly describes JSON?
+stands for JavaScript Object Notation
+- used to share and store data utilizing objects
+
+data types:
+<img width="278" alt="Screenshot 2023-10-29 at 10 34 09 PM" src="https://github.com/curryan7/startup/assets/103795725/43bb63a8-342a-4d43-85c8-7eb599b45746">
+
+
+<img width="503" alt="Screenshot 2023-10-29 at 10 35 47 PM" src="https://github.com/curryan7/startup/assets/103795725/ed395ea1-e44c-43d7-80a7-c5a322915679">
+- contains an object (contain zero or more key value pairs)
+- key is always a string
+- value is one of above data types
+- key value pairs delimited with commas
+- curly braces delimit object
+- square bracket and commas delimit arrays
+- string are ALWAYS delimited with double quotes
+
+use `JSON.parse` and `JSON.stringify` to convert JSON to and from JS
+<img width="482" alt="Screenshot 2023-10-29 at 10 36 29 PM" src="https://github.com/curryan7/startup/assets/103795725/1344040b-806c-476f-9b76-9612c818c1a3">
+
+### What does the console command:
+- chmod: 
+- pwd: see what directory you're in
+- cd: change directory
+- ls: list
+- vim: text editor (superior)
+- nano: text editor (modest)
+- mkdir: create a new directory
+- mv: move a directory
+- rm: remove a directory
+- man: look up a command in the manual
+- ssh: create a secure shell on a remote computer
+- ps: view the currently running processes
+- wget: with a file URL you wish to download to your command prompt
+- sudo: execute a command as a super user
+<img width="467" alt="Screenshot 2023-10-29 at 10 26 50 PM" src="https://github.com/curryan7/startup/assets/103795725/7290c7e1-559a-4e62-a8c9-04ce3543d288">
+<img width="754" alt="Screenshot 2023-10-29 at 10 27 10 PM" src="https://github.com/curryan7/startup/assets/103795725/c2ad7f7c-0785-4b8b-b666-460e61c39d7b">
+
+`ctrl-R` to type to find previous commands
+`ctrl-C` to kill current running command
+
+
+### Which of the following console command creates a remote shell session?
+`ssh`
+
+### Which of the following is true when the -la parameter is specified for the ls console command?
+
+
+### Which of the following is true for the domain name banana.fruit.bozo.click, which is the top level domain, which is a subdomain, which is a root domain?
+![domain-name-structure-diagram-1956x936](https://github.com/curryan7/startup/assets/103795725/3e7586c9-bc9f-4bcd-86ed-f8555f9e43b6)
+
+
+### Is a web certificate is necessary to use HTTPS?
+Yes
+
+### Can a DNS A record can point to an IP address or another A record?
+
+
+
+### Port 443, 80, 22 is reserved for which protocol?
+
+
+
+### What will the following code using Promises output when executed?
+
+
+
+
+
 <img width="753" alt="Screenshot 2023-10-14 at 10 37 04 PM" src="https://github.com/curryan7/startup/assets/103795725/bb7caab7-1c68-4e99-a24a-74cb4b1b602c">
 
 ### functions
