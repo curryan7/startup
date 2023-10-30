@@ -218,9 +218,7 @@ ternary operator ':' which is a compact if else:
 # MIDTERN STUDY GUIDE
 
 In the following code, what does the link element do? (HTML)
-  <head>
-  <link rel="stylesheet" href="styles.css">
-  </head>
+
 
 In the following code,  where does a div tag do? (HTML)
 
@@ -263,9 +261,11 @@ DOM= Document Object Models
 
 use `document` to see DOM for document the browser is currently rendering
 i.e.
+
 <img width="383" alt="Screenshot 2023-10-30 at 1 10 38 AM" src="https://github.com/curryan7/startup/assets/103795725/f6abcd18-2c77-4187-9e18-bb686a2ff9f5">
 
 for everything in an HTML document, there is a node in the DOM (elements, attributes, text, comments, whitespace); big tree with document node at top
+
 <img width="604" alt="Screenshot 2023-10-30 at 1 11 40 AM" src="https://github.com/curryan7/startup/assets/103795725/7801d409-3f0c-4b01-941a-7c9c0237916e">
 
 
@@ -276,6 +276,7 @@ for everything in an HTML document, there is a node in the DOM (elements, attrib
 - provides means for iterating child elements, accessing parent elements, and manipulating element's attributes
 
 can start with `document` variable and walk through every element in tree
+
 <img width="320" alt="Screenshot 2023-10-30 at 1 17 39 AM" src="https://github.com/curryan7/startup/assets/103795725/d924979e-99ca-45cb-b795-4f3224229eae">
 
 <img width="630" alt="Screenshot 2023-10-30 at 1 18 06 AM" src="https://github.com/curryan7/startup/assets/103795725/dbeabc12-da3f-4ea5-b8d5-dc7a232fda0a">
@@ -310,9 +311,13 @@ to create an object in DOM:
 ### How would you use CSS to change all the div elements to have a background color of red? (CSS color)
 
 <img width="240" alt="Screenshot 2023-10-29 at 11 40 26 PM" src="https://github.com/curryan7/startup/assets/103795725/f9566085-a7a1-42b6-8537-61269d4b0797">
+
 <img width="936" alt="Screenshot 2023-10-29 at 11 46 57 PM" src="https://github.com/curryan7/startup/assets/103795725/a399d382-c01c-4163-a738-bc16a851314b">
+
 <img width="936" alt="Screenshot 2023-10-29 at 11 47 17 PM" src="https://github.com/curryan7/startup/assets/103795725/e1842606-33f7-4a96-b7a5-3e7e60cc2b87">
+
 <img width="518" alt="Screenshot 2023-10-29 at 11 47 31 PM" src="https://github.com/curryan7/startup/assets/103795725/91eb7b1b-40e0-44e3-aed1-aa0dbc16d04b">
+
 <img width="933" alt="Screenshot 2023-10-29 at 11 47 39 PM" src="https://github.com/curryan7/startup/assets/103795725/d8e3902b-f090-408e-9fd3-d5cacf929e90">
 
 
@@ -320,7 +325,9 @@ to create an object in DOM:
 use `img` element
 specify using `src`
 use `alt` that describes the image
+
 <img width="291" alt="Screenshot 2023-10-29 at 11 29 08 PM" src="https://github.com/curryan7/startup/assets/103795725/8f3eed70-ae95-4c12-aab3-bd5721982822">
+
 +url in quotes />
 
 **for audio**
@@ -328,6 +335,7 @@ use `alt` that describes the image
 `audio` element
 `src` to specifiy url to source audio file
 `autoplay` + `loop` to troll the crap out of the user
+
 <img width="394" alt="Screenshot 2023-10-29 at 11 32 24 PM" src="https://github.com/curryan7/startup/assets/103795725/bccb365a-48a1-438d-abbc-9233992145a8">
 
 **for video**
@@ -335,13 +343,14 @@ use `alt` that describes the image
 `src` for URL
 include `controls` and `autoplay` attributes
 use `crossorigin="anonymous"` if requesting files from different domain
+
 <img width="602" alt="Screenshot 2023-10-29 at 11 33 45 PM" src="https://github.com/curryan7/startup/assets/103795725/676db244-357b-4dac-bb0b-80f3f205fa4f">
 
 **for internal media**
 
-"<svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg" stroke="red" fill="red" style="border: 1px solid #000000">
+`<svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg" stroke="red" fill="red" style="border: 1px solid #000000">
   <circle cx="150" cy="100" r="50" />
-</svg>"
+</svg>`
 
 In the CSS box model, what is the ordering of the box layers starting at the inside and working out?
 
@@ -524,7 +533,9 @@ data types:
 - ps: view the currently running processes
 - wget: with a file URL you wish to download to your command prompt
 - sudo: execute a command as a super user
+
 <img width="467" alt="Screenshot 2023-10-29 at 10 26 50 PM" src="https://github.com/curryan7/startup/assets/103795725/7290c7e1-559a-4e62-a8c9-04ce3543d288">
+
 <img width="754" alt="Screenshot 2023-10-29 at 10 27 10 PM" src="https://github.com/curryan7/startup/assets/103795725/c2ad7f7c-0785-4b8b-b666-460e61c39d7b">
 
 `ctrl-R` to type to find previous commands
