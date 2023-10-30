@@ -559,7 +559,7 @@ data types:
 <img width="482" alt="Screenshot 2023-10-29 at 10 36 29 PM" src="https://github.com/curryan7/startup/assets/103795725/1344040b-806c-476f-9b76-9612c818c1a3">
 
 ### What does the console command:
-- chmod: 
+- chmod: adjust file permissions
 - pwd: see what directory you're in
 - cd: change directory
 - ls: list
