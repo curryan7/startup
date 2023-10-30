@@ -412,7 +412,7 @@ weakly type langague: variable always has a type but variable can change type wh
 
 <img width="371" alt="Screenshot 2023-10-29 at 11 03 15 PM" src="https://github.com/curryan7/startup/assets/103795725/0713821a-d925-47b3-a2fb-e28b4ebd7e2f">
 
-</br>
+
 **for of**
 
 <img width="634" alt="Screenshot 2023-10-29 at 11 03 39 PM" src="https://github.com/curryan7/startup/assets/103795725/d3b8607b-3e4a-4905-8c05-cf2ba54c9413">
