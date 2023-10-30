@@ -467,10 +467,13 @@ stands for JavaScript Object Notation
 - used to share and store data utilizing objects
 
 data types:
+
 <img width="278" alt="Screenshot 2023-10-29 at 10 34 09 PM" src="https://github.com/curryan7/startup/assets/103795725/43bb63a8-342a-4d43-85c8-7eb599b45746">
 
 
 <img width="503" alt="Screenshot 2023-10-29 at 10 35 47 PM" src="https://github.com/curryan7/startup/assets/103795725/ed395ea1-e44c-43d7-80a7-c5a322915679">
+
+<ul>
 - contains an object (contain zero or more key value pairs)
 - key is always a string
 - value is one of above data types
@@ -478,8 +481,10 @@ data types:
 - curly braces delimit object
 - square bracket and commas delimit arrays
 - string are ALWAYS delimited with double quotes
+</ul>
 
-use `JSON.parse` and `JSON.stringify` to convert JSON to and from JS
+<p>use `JSON.parse` and `JSON.stringify` to convert JSON to and from JS</p>
+
 <img width="482" alt="Screenshot 2023-10-29 at 10 36 29 PM" src="https://github.com/curryan7/startup/assets/103795725/1344040b-806c-476f-9b76-9612c818c1a3">
 
 ### What does the console command:
