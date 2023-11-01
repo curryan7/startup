@@ -32,3 +32,9 @@ For this deliverable, I built out the structure of my application using HTML.
 - Application elements: Used a professional color scheme and utilized spacing to not crowd the user with content
 - Application text content: consistent fonts
 - Application images: all images are present and spaced correctly to be decoratively asthetic
+
+## Javascript Deliverable
+questions for tomorrow:
+- eventlisteners, how to have two on one page
+- why does my object retrieval prevent my function from working?
+- how do I create a hash function to store these values?
