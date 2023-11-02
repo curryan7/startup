@@ -34,7 +34,8 @@ For this deliverable, I built out the structure of my application using HTML.
 - Application images: all images are present and spaced correctly to be decoratively asthetic
 
 ## Javascript Deliverable
-questions for tomorrow:
-- eventlisteners, how to have two on one page
-- why does my object retrieval prevent my function from working?
-- how do I create a hash function to store these values?
+- support for log-in: the home page checks for valid phone numbers, and will only access the 'create poll' page if the phone number is valid. For those accessing someone else's poll (phone number field below), you will not be able to access the form without putting in a phone number that matches one in the array stored in the local storage
+- future database data: first name, phone number, poll ideas, are all stored in local storage (verify with inspect --> application --> local storage)
+- Websocket: ideas page will post random polls from other users (currently set at oldest and second oldest poll)
+- interaction logic: checkboxes in polls are an easy interface, the log-in screen with the first name and phone number will not proceed without a valid phone number or a matching phonenumber with what is in storage, and after completing a poll or filling one out the website will direct you to an instruction page to tell you what to do next.
+
