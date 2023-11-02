@@ -36,6 +36,6 @@ For this deliverable, I built out the structure of my application using HTML.
 ## Javascript Deliverable
 - support for log-in: the home page checks for valid phone numbers, and will only access the 'create poll' page if the phone number is valid. For those accessing someone else's poll (phone number field below), you will not be able to access the form without putting in a phone number that matches one in the array stored in the local storage
 - future database data: first name, phone number, poll ideas, are all stored in local storage (verify with inspect --> application --> local storage)
-- Websocket: ideas page will post random polls from other users (currently set at oldest and second oldest poll)
+- Websocket: ideas page will post random polls from other users **warning** you will need to create at least two polls when grading in order to see this feature work
 - interaction logic: checkboxes in polls are an easy interface, the log-in screen with the first name and phone number will not proceed without a valid phone number or a matching phonenumber with what is in storage, and after completing a poll or filling one out the website will direct you to an instruction page to tell you what to do next.
 
