@@ -40,8 +40,13 @@ For this deliverable, I built out the structure of my application using HTML.
 - interaction logic: checkboxes in polls are an easy interface, the log-in screen with the first name and phone number will not proceed without a valid phone number or a matching phonenumber with what is in storage, and after completing a poll or filling one out the website will direct you to an instruction page to tell you what to do next.
 
 ## Web Service Deliverable
-- Node.s/Express HTTP service - code incorporated
-- Static middleware for frontend - code incorporated
-- Calls to third party endpoint - third party service used is randomQuotes from NPM on the ideas page of my website (refresh to see the successful calls)
-- Backend service endpoints - similar to voting app, put in placeholders for login that stores the current user in localstorage
-- frontend calls service endpoints - used the fetch function to grab the quote from the third party service
+- Node.s/Express HTTP service: code incorporated
+- Static middleware for frontend: code incorporated
+- Calls to third party endpoint: third party service used is randomQuotes from NPM on the ideas page of my website (refresh to see the successful calls)
+- Backend service endpoints: similar to voting app, put in placeholders for login that stores the current user in localstorage
+- frontend calls service endpoints: used the fetch function to grab the quote from the third party service
+
+## DB Deliverable
+- MongoDB Atlas database created: created and working
+- Endpoints for data: endpoints are connected
+- stores data in MongoDB: done!
