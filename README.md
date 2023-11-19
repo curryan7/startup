@@ -50,3 +50,10 @@ For this deliverable, I built out the structure of my application using HTML.
 - MongoDB Atlas database created: created and working
 - Endpoints for data: endpoints are connected
 - stores data in MongoDB: done!
+
+## Login Deliverable
+I associated he polls with the logged user
+- user registration: creates new account in the database
+- existing user: stores the current poll if the credentials are correct
+- use MongoDB to store credentials: stores polls and user info
+- restricts functionality: you can't create a poll until you login
