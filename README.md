@@ -50,6 +50,7 @@ For this deliverable, I built out the structure of my application using HTML.
 - MongoDB Atlas database created: created and working
 - Endpoints for data: endpoints are connected
 - stores data in MongoDB: done!
+- evidence of all of this is in my ideas page showing a random poll that someone created each time you refresh
 
 ## Login Deliverable
 I associated he polls with the logged user
