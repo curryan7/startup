@@ -54,7 +54,7 @@ For this deliverable, I built out the structure of my application using HTML.
 
 ## Login Deliverable
 I associated he polls with the logged user
-- user registration: creates new account in the database
-- existing user: stores the current poll if the credentials are correct
-- use MongoDB to store credentials: stores polls and user info
+- user registration: creates new account and stores it locally until a poll is submitted. When the poll is submitted, the database will save both the poll and the user data which can accessed by their date
+- existing user: stores the current poll if the credentials are correctly formated and exist in the database
+- use MongoDB to store credentials: stores polls and user info together
 - restricts functionality: you can't create a poll until you login
