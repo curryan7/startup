@@ -35,9 +35,10 @@ async function getPoll() {
   return result[random_num]
 };
 
-
-
-module.exports = {addPoll,getPoll};
+module.exports = {
+  addPoll,
+  getPoll,
+};
 
 
 
