@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Downloads/startbootstrap-creative-gh-pages"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "startipJSS"
+	}
+}
