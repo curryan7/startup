@@ -58,3 +58,17 @@ I associated he polls with the logged user
 - existing user: stores the current poll if the credentials are correctly formated and exist in the database
 - use MongoDB to store credentials: stores polls and user info together
 - restricts functionality: you can't create a poll until you login
+
+## Websocket Deliverable
+- Backend listens for WebSocket connection - done!
+- Frontend makes WebSocket connection - done!
+- Data sent over WebSocket connection - done!
+- WebSocket data displayed - chat displays in real time
+
+## React deliverable
+- Bundled and transpiled - done!
+- Components - login, creating a poll, slight change of color in the top menu bar all components
+- router - routing between app page and all other pages as well as login and poll components
+- hooks - used useState for quotes on ideas page as a hook to see if there was a poll generated and/or a quote shown
+
+sorry if it isn't clear, im doing this on 2 hours of sleep :P
