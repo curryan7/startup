@@ -642,5 +642,97 @@ and `finally` after all the processing is done
 
 <img width="753" alt="Screenshot 2023-10-14 at 10 37 04 PM" src="https://github.com/curryan7/startup/assets/103795725/bb7caab7-1c68-4e99-a24a-74cb4b1b602c">
 
-### functions
+---____-----
 
+# Finals Notes
+## What ports are used for HTTP, HTTPS, SSH?
+HTTP: port 80
+HTTPS: port 443
+SSH: 22
+![Screenshot 2023-12-19 at 11 11 44 AM](https://github.com/curryan7/startup/assets/103795725/5e3299f9-6673-46cf-a4ec-3a00cad88afc)
+
+## What do HTTP status codes in the 300, 400, 500 range indicate?
+300 is for redirection:
+1) 300 multiple choices (multiple options for the resource that the client may follow)
+2) 301 moved permanently
+3) 302 found: temporarily under a new url
+4) 304 modified: resource has not been modified since the last request
+
+400 is for client-side errors:
+1) 400: bad request (server cannot process due to client)
+2) 401 Unauthorized: Authentication is required to access the resource
+3) 403 Forbidden: The server understood the request but refuses to authorize it
+4) 404 Not Found: The requested resource is not available on the server
+
+500 is for server side errors:
+1) 500 Internal Server Error: Generic error message indicating that something has gone wrong on the server
+2) 502 Bad Gateway: Indicates that a server acting as a gateway received an invalid response from an inbound server
+3) 503 Service Unavailable: The server is currently unable to handle the request due to temporary overloading or maintenance of the server
+![Screenshot 2023-12-19 at 11 12 28 AM](https://github.com/curryan7/startup/assets/103795725/6d69dd89-7b7e-4da8-bb2a-ef6c245fe77a)
+
+## What does the HTTP header `content-type` allow you to do?
+It helps the receiving end know how to interpret the data by specifying its formatting
+![Screenshot 2023-12-19 at 11 13 14 AM](https://github.com/curryan7/startup/assets/103795725/fb9ee4e3-144e-4c55-8653-574c59515e49)
+
+## What does the domain of a cookie do?
+specifies which server can receive a cookie
+if not specific domain, then available on server, not on subdomains tho
+
+## What does the path of a cookie do?
+indicates a URL path that must exist in the requested URL in order to send the Cookie header
+![Screenshot 2023-12-19 at 11 17 41 AM](https://github.com/curryan7/startup/assets/103795725/3868e259-fd4d-4849-96f7-56323b74d27d)
+
+## What does the SameSite of a cookie do?
+![Screenshot 2023-12-19 at 11 21 06 AM](https://github.com/curryan7/startup/assets/103795725/8dc28ca4-f33b-4a47-91c6-a9ef6b68b7e5)
+
+## What does the HTTPOnly of a cookie do?
+![Screenshot 2023-12-19 at 11 22 42 AM](https://github.com/curryan7/startup/assets/103795725/6bbb0a83-bbfe-4350-9c94-2be37d82a0ff)
+
+## How should you store user passwords in a database?
+hashcoded
+
+## What is the WebSocket protocol used for?
+<img width="959" alt="Screenshot 2023-12-19 at 11 44 24 AM" src="https://github.com/curryan7/startup/assets/103795725/6f42c730-039c-4f96-a59f-a022171218e5">
+
+## What is JSX and how are the curly braces rendered?
+JSX is the file variant in which content is rendered in REACT (JS + HTML which is wild right???!!)
+
+curly braces are used to insert JS variables into the HTML of the JSX (markup)
+
+## What are React Hooks used for?
+
+does everything a class style component can do and more without needing to write a class
+new features to React added as hooks
+
+![Screenshot 2023-12-19 at 11 59 26 AM](https://github.com/curryan7/startup/assets/103795725/3fff27e4-04da-4cde-93f3-712a60ba901f)
+
+## What is the useEffect hook used for?
+allows you to represent lifecycle events (run a function every time a component completes rendering)
+<img width="950" alt="Screenshot 2023-12-19 at 12 01 10 PM" src="https://github.com/curryan7/startup/assets/103795725/fadf69f1-28e4-4eef-8054-ac26f8397b9b">
+
+## What role does npm play in web development?
+NPM (Node package manager) is to help you utilize preeesxisting packages of JS in your development. The NPM can access a library of packages, retrieve them for installation.
+
+## What does package.json do in a npm project?
+1) it contains metadata about your porjects (name, default entry JS file such as index.js)
+2) commands (scripts) that you can execute to do things like run, test, or distribute your code
+3) contains packages that htis project depends on
+   
+## What does the fetch function do?
+A built-in function that you can call from the JS code running in the browser.
+It takes a URL and returns a promise. The `then` function in the promise takes a callback function that is asynchronously called when the requested URL content is obtained. If the returned content is of type application/json you can use the json function on the response object to convert it to a JavaScript object.
+
+<img width="481" alt="Screenshot 2023-12-19 at 12 09 11 PM" src="https://github.com/curryan7/startup/assets/103795725/5c80ce2c-a4bb-4abf-97d1-2977abef3fd0">
+
+## What does node.js do?
+it allows JS code to be deployed outside of a browser
+<img width="810" alt="Screenshot 2023-12-19 at 12 11 19 PM" src="https://github.com/curryan7/startup/assets/103795725/0d65f0b7-d7c3-4239-b401-0918d81b2deb">
+
+PM2 is the process manager that allows you to keep your application running even when your console is shut off
+
+## What does Vite do?
+- bundles code quickly
+- easily support JSX, Typescript, and different CSS flavors
+- bundles and send code to make a temporary directory to pseudo deploy for react
+
+When you execute npm run dev you are bundling the code to a temporary directory that the Vite debug HTTP server loads from. When you want to bundle your application so that you can deploy to a production environment you need to run npm run build. This executes the build script found in your package.json and invokes the Vite CLI. vite build transpiles, minifies, injects the proper JavaScript, and then outputs everything to a deployment-ready version contained in a distribution subdirectory named dist.
