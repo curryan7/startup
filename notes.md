@@ -736,3 +736,25 @@ PM2 is the process manager that allows you to keep your application running even
 - bundles and send code to make a temporary directory to pseudo deploy for react
 
 When you execute npm run dev you are bundling the code to a temporary directory that the Vite debug HTTP server loads from. When you want to bundle your application so that you can deploy to a production environment you need to run npm run build. This executes the build script found in your package.json and invokes the Vite CLI. vite build transpiles, minifies, injects the proper JavaScript, and then outputs everything to a deployment-ready version contained in a distribution subdirectory named dist.
+
+## Given the following MongoDB query: `{ cost: { $gt: 10 }, name: /fran.*/}`
+{ cost: { $gt: 10 }, name: /fran.*/ }
+
+cost: { $gt: 10 }: This part of the query specifies a condition for the cost field. It selects documents where the cost field's value is greater than ($gt) 10.
+
+name: /fran.*/: Here, it's filtering documents based on the name field. The regular expression /fran.*/ is used. This regex matches any value in the name field that starts with "fran" followed by any sequence of characters (.*).
+
+So, this query will fetch documents from the collection where the cost field has a value greater than 10 and the name field matches the pattern "fran" followed by any characters.
+![Screenshot 2023-12-19 at 12 24 57 PM](https://github.com/curryan7/startup/assets/103795725/fcbfdcf6-879c-496c-8538-80736243807d)
+
+## express middleware example
+
+what we sent to the server:
+![Screenshot 2023-12-19 at 1 15 12 PM](https://github.com/curryan7/startup/assets/103795725/5cc0c56f-3d61-474e-b431-4ef7b8540812)
+
+code
+![Screenshot 2023-12-19 at 1 15 28 PM](https://github.com/curryan7/startup/assets/103795725/a8c861da-3ce2-4f4b-b125-c19de5ad7f9f)
+
+what we got back
+![Screenshot 2023-12-19 at 1 16 57 PM](https://github.com/curryan7/startup/assets/103795725/991b20de-ee75-4024-a68c-a38b938b0807)
+![Screenshot 2023-12-19 at 1 17 15 PM](https://github.com/curryan7/startup/assets/103795725/cb349f38-a73e-4c57-812c-38e5822e0df5)
